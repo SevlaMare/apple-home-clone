@@ -4,6 +4,43 @@
 	border: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url("images/hero.jpg");
+}
+
+/* TOP NAV BAR */
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px auto 100px auto;
+
+	width: fit-content;
+	height: 40px;
+
+	border-radius: 5px;
+	background: #5f5f5f;
+}
+
+nav > * {
+	margin-right: 60px;
+}
+
+nav input {
+	height: 20px;
+	width: 120px;
+	margin-right: 20px;
+	border-radius: 9px;
+}
+
+nav a {
+	color: #fff;
+	text-shadow: 1px 1px #333;
+}
 
 /* MAIN */
 
