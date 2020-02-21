@@ -10,6 +10,7 @@ a {
 
 body {
 	background-image: url("images/hero.jpg");
+	background-position: bottom;
 }
 
 /* --- TOP NAV BAR --- */
@@ -75,3 +76,31 @@ main span { font-size: 1.5rem; }
 }
 
 /* --- FOOTER --- */
+footer {
+	margin: 20px 150px;
+	background: #fff;
+}
+
+footer a {
+	color: #00A5E2;
+	font-size: 0.7rem;
+}
+
+footer small {
+	font-size: 0.7rem;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	height: 20px;
+}
+
+.copyright {
+	margin-top: 10px;
+}
+
+.bg-white {
+	background: #fff;
+	padding-bottom: 15px;
+}
