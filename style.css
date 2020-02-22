@@ -106,8 +106,7 @@ main a {
 .offers {
 	background-position: center;
 	display: inline-block;
-	margin: 0;
-	width: 330px;
+	width: 360px;
 	height: 200px;
 }
 
@@ -124,7 +123,7 @@ main a {
 /* --- FOOTER --- */
 footer {
 	width: 920px;
-	margin: 20px 150px;
+	margin: 20px auto;
 	background: #fff;
 }
 
