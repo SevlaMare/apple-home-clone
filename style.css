@@ -10,7 +10,8 @@ a {
 
 body {
 	background-image: url("images/hero.jpg");
-	background-position: bottom;
+	background-position: center bottom -51%;
+	background-repeat: no-repeat;
 }
 
 /* --- TOP NAV BAR --- */
@@ -30,8 +31,13 @@ nav {
 	background: #5f5f5f;
 }
 
-nav > * {
-	margin-right: 60px;
+.btn-nav {
+	width: 100px;
+	border: solid 1px #333;
+}
+
+.btn-ext {
+	width: 150px;
 }
 
 nav input {
@@ -44,6 +50,15 @@ nav input {
 nav a {
 	color: #fff;
 	text-shadow: 1px 1px #333;
+}
+
+#icon-logo {
+	width: 20px;
+	padding: 0 40px;
+}
+
+#icon-search {
+	width: 10px;
 }
 
 /* --- MAIN --- */
@@ -59,20 +74,41 @@ main img {
 	margin-left: 10px;
 }
 
-main h2 {
-	font-size: 4rem;
-	font-weight: normal;
+.text-thin {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: lighter;
+	color: #fff;
 }
 
+main h2 {	font-size: 4rem; }
 main p { font-size: 2rem; }
 main span { font-size: 1.5rem; }
+
+#icon-play {
+	width: 20px;
+}
 
 /* --- SECTION --- */
 .grid {
 	display: grid;
-	grid-template-columns: 	repeat(4, 1fr);
-	grid-gap: 3px;
-	background: #fff;
+	grid-template-columns: repeat(4, 1fr);
+	max-width: 1200px;
+}
+
+.pick {
+	width: 330px;
+	height: 200px;
+	background-position: center;
+}
+
+.product-1 {	background-image: url("images/pick1.jpg"); }
+.product-2 {	background-image: url("images/pick2.jpg"); }
+.product-3 {	background-image: url("images/pick3.jpg"); }
+.product-4 {	background-image: url("images/pick4.jpg"); }
+
+.products-images {
+	background-position: center;
+  background-size: 300px 200px;
 }
 
 /* --- FOOTER --- */
@@ -88,6 +124,7 @@ footer a {
 
 footer small {
 	font-size: 0.7rem;
+	color: #666;
 }
 
 .footer-links {
@@ -103,4 +140,9 @@ footer small {
 .bg-white {
 	background: #fff;
 	padding-bottom: 15px;
+}
+
+.bar p {
+	padding: 0 3px;
+	font-size: 12px;
 }

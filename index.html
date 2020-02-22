@@ -9,47 +9,64 @@
 <body>
 
 <nav class="flex">
-  <image>
-    <img src="images/icon-usa.png">
-  </image>
-  <a href="#">Store</a>
-  <a href="#">Mac</a>
-  <a href="#">iPod</a>
-  <a href="#">iPhone</a>
-  <a href="#">iPad</a>
-  <a href="#">iTunes</a>
-  <a href="#">Support</a>
-  <input>
+  <div class="btn-nav" class="btn-nav">
+    <image class="flex">
+      <img src="images/logo.svg" alt="logo" id="icon-logo">
+    </image>
+  </div>
+  
+  <div class="btn-nav">
+    <a href="#">Store</a>
+  </div>
+    
+  <div class="btn-nav">
+    <a href="#">Mac</a>
+  </div>
+
+  <div class="btn-nav">
+    <a href="#">iPod</a>
+  </div>
+
+  <div class="btn-nav">
+    <a href="#">iPhone</a>
+  </div>
+
+  <div class="btn-nav">
+    <a href="#">iPad</a>
+  </div>
+
+  <div class="btn-nav">
+    <a href="#">iTunes</a>
+  </div>
+
+  <div class="btn-nav">
+    <a href="#">Support</a>
+  </div>
+
+  <div class="flex btn-nav btn-ext" id="search-bar">
+    <img src="images/search.svg" alt="search" id="icon-search">
+    <input>
+  </div>
+
 </nav>
 
-<main>
+<main class="text-thin">
   <h2>What will your verse be?</h2>
   <p>Everyone has something to share. See how people are using 
     <br>iPad in their unique ways to add to the world's story.</p>
   
   <div class="flex">
     <span>Watch the "Your Verse" film and explore the stories</span>
-    <img src="images/icon-usa.png">
+    <img src="images/play.svg" alt="play icon" id="icon-play">
   </div>
 </main>
 
 <div class="bg-white">
   <section class="grid">
-    <div class="grid-item">
-      <img src="images/pick1.jpg">
-    </div>
-  
-    <div class="grid-item">
-      <img src="images/pick2.jpg">
-    </div>
-  
-    <div class="grid-item">
-      <img src="images/pick3.jpg">
-    </div>
-  
-    <div class="grid-item">
-      <img src="images/pick4.jpg">
-    </div>
+    <div class="pick product-1"></div>
+    <div class="pick product-2"></div>
+    <div class="pick product-3"></div>
+    <div class="pick product-4"></div>
   </section>
   
   <footer>
@@ -65,21 +82,29 @@
         </small>
      </div>
   
-      <div>
+      <div class="flex bar">
         <a href="#">Site Map</a>
+        <p>|</p>
         <a href="#">Hot News</a>
+        <p>|</p>
         <a href="#">RSS Feeds</a>
+        <p>|</p>
         <a href="#">Media Info</a>
+        <p>|</p>
         <a href="#">Environment</a>
+        <p>|</p>
         <a href="#">Job Opportunities</a>
+        <p>|</p>
         <a href="#">Contact us</a>
+        <p>|</p>
         <img src="images/icon-usa.png">
       </div>
     </div>
   
-    <div class="copyright">
+    <div class="copyright bar">
       <small>Copyright © 2014 Apple Inc. All rights reserved.</small>
       <a href="#">Terms of Use</a>
+      <small>|</small>
       <a href="#">Privacy Policy</a>
     </div>
   </footer>
