@@ -1,57 +1,72 @@
-# Project Name
+# Apple Home Clone
 
-> One paragraph statement about the project.
+> This is a old Apple home page clone
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
-Additional description about the project and its features.
+The key concepts explored here are backgrounds and gradients.
+
+## Requirements
+
+<ul>
+  <h3>General</h3>
+  <li>Add descriptive README file.</li>
+  <li>Use meaningful names for your Pull Requests and add a short summary of its content.</li>
+  <li>Use descriptive commit messages.</li>
+  <li>Do not commit files that are not related to the project.</li>
+  <li>Do not commit inline comments.</li>
+</ul>
+
+<ul>
+  <h3>Specific</h3>
+  <li>Align all elements with float and flex or grid.</li>
+  <li>Use gradients</li>
+  <li>Use a code Linter</li>
+  <li>Use Git and Github workflow</li>
+  <li>Always commit</li>
+  <li>Don't merge in master branch until the project finished and approved</li>
+</ul>
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html5 and CSS3 <br>
+- Stickler-CI (Linter) and W3C validator <br>
+- Git, Github and VScode <br>
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sevlamare.github.io/apple-home-clone/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+If you don't want to follow the commits history skip this steps<br>
+-Download Git at https://git-scm.com/downloads<br>
+-Make a Github account and setup your SSH key in your current machine.<br>
+-Clone the repository with terminal:<br>
+git@github.com:SevlaMare/mint-sign-up-clone.git
+
 ### Setup
 
-### Install
+Click on green button in this page (Clone or download) and click on (Download Zip)<br>
+Unzip de files. It's ready to use!
 
-### Usage
+### Run
 
-### Run tests
-
-### Deployment
-
+Just drag drop, the index.html on some web browser, like Google Crome.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Thiago Miranda**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/SevlaMare)
+- Twitter: [@twitterhandle](https://twitter.com/SevlaMare)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sevlamare)
 
 ## 🤝 Contributing
 
@@ -65,9 +80,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- A special thanks for the code reviewer
 
 ## 📝 License
 
